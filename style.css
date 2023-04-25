@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(248, 245, 245);
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+   background-color:#3270A6
+
+}
+#slogan{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.9rem;
+    font-family: cursive;
+    color: white;
+    margin-top: 10px;
+}
+
+#pc{
+    width: 25%;
+    margin-left: 15%;
+    
+
+}
+
+#pc img{
+    width: 60px;
+}
+
+
+#opcoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#opcoes div{
+    margin-left: 50px;
+    padding: 23px 8px;
+    
+}
+
+#opcoes div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#opcoes div:hover{
+    border-bottom: 3px solid black;
+    font-size: 1.4rem;
+}
+
+
+h1{
+    color:black;
+    text-align: center;
+    background-color: rgb(248, 245, 245);
+    font-size: 2.5rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.borda{
+    width: 5%;
+    height: 105vh;
+    background-color: #3270A6;
+}
+
+#frase{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#frase #conteudo{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#msg1{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+#msg1 #ht{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #3270A6;
+}
+
+#msg1 #ht2{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: black
+}
+.cor{
+    color: #3270A6;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-family: cursive;
+}
+
+.habilidades{
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+
+.habilidades img{
+    width: 85px;
+    animation: imagem;
+    animation-duration: 3s;
+    transition: 0.5s;
+    opacity: 0.3;
+    padding: 8px;
+}
+
+@keyframes imagem{
+    0% {opacity: 1;}
+    100% {opacity: 0.3;}
+}
+
+.habilidades img:hover{
+    transform: rotateZ(360deg);
+    opacity: 1;
+}
+
+/*Foto*/
+#imagem{
+    width: 45%;
+    height: 650px; 
+}
+
+#imagem img{
+    width: 635px;
+    animation-name: animacao;
+    animation-duration: 7s;
+    transition: 0.4s;
+}
+#imagem img:hover{
+opacity: 0.9;
+}
+
+@keyframes animacao{
+    0%{ width: 500px;}
+    100% { width: 635px;}
+   
+}
+
+.skills{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rodape{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(45deg, #3270A6, rgb(7, 234, 250));
+    
+    
+}
+.rodape p{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.redes{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.redes a img{
+    width: 50px;
+    border-radius: 30%;
+    margin: 10px 20px;
+    
+}
+
+.redes a img:hover{
+    width: 70px;
+    transition: 0.4s;
+}
+
+
+
+.rodape h2{
+    color: white;
+}
+
+/*Portfolio*/
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 55px;
+}
+
+#h2{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 45%;;
+}
+
+@keyframes projeto{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: projeto;
+    animation-duration: 3s;
+    
+}
+.projetos{
+    width: 32%;
+    margin:8px;
+    height: 300px;
+    border: 1px solid #3270A6;
+    text-align: center; 
+}
+
+.projetos img{
+    width: 100%;
+    height: 275px;
+    
+}
+
+.projetos button{
+    background-color: #3270A6;
+    width: 80px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px black;
+    cursor: pointer;
+}
+
+.projetos button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Trajetoria*/
+
+.historia{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.historia p{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1000px){
+    #slogan{
+        width: 30%;
+    }
+    #texto{
+        font-size: 1.1rem;
+        padding: 0px;
+        margin: 5px;
+        
+    }
+    #pc {
+        display: none;
+    }
+    #opcoes{
+        margin-left: 0px;
+        
+        padding: 0px 4px;
+        align-items: left;
+    }
+    #opcoes a{
+        padding: 2px 2px;
+        
+    }
+    h1{
+        padding-bottom: 5px;
+    }
+    #principal{
+        flex-direction: column;
+    }
+     
+    #frase{
+        width: 100%;
+        
+    }
+    .cor{
+        margin-bottom: 5px;
+    }
+    #imagem{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #imagem img{
+        width: 500px;
+    }
+
+    #imagem img{
+        width: 400px;
+        animation-name: animacao;
+        animation-duration: 7s;
+        
+    }
+    @keyframes animacao{
+        0%{ width: 400px;}
+        100% { width: 500px;}
+       
+    }
+    
+}
+
+@media screen and (max-width: 1400px){
+    .borda{
+        display: none;
+    }
+    #principal{
+        margin-top: 50px;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 55px;
+        
+    }
+    .projetos{
+        width: 30%;
+        margin:2px;
+        height: 300px;
+        border: 1px solid #3270A6;
+        text-align: center; 
+    }
+}
+
+@media screen and (max-width:415px) {
+    #slogan{
+        display: none;
+    }
+   
+    #pc {
+        display: none;
+    }
+    #opcoes{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #opcoes div a{
+        padding: 0px;
+        font-size: 0.8rem;
+    }
+    h1{
+        padding-bottom: 5px;
+    }
+    #principal{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+     
+    #frase{
+        width: 100%;
+        
+    }
+    .cor{
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+    }
+    #imagem{
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding:0px;
+        text-align: center;
+    }
+
+
+
+    #imagem img{
+        width: 300px;
+        animation-name: animacao;
+        animation-duration: 7s;
+        
+        
+        
+    }
+    @keyframes animacao{
+        0%{ width: 250px;}
+        100% { width: 300px;}
+       
+    }
+    .redes{
+        width: 80%;
+    }
+
+    .projetos{
+        width: 30%;
+        margin:2px;
+        height: 200px;
+        border: 1px solid #3270A6;
+        text-align: center; 
+    }
+
+    .projetos img{
+        height: 170px;
+    }
+
+    .projetos button{
+        width: 60px;
+        height: 30px;
+    }
+
+    #msg1{
+        width: 100%;
+    }
+   
+    .historia{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:376px){
+    #msg1{
+       display: none; 
+    }
+    .habilidades img{
+        opacity: 1;
+    }
+   
+}
+    
+
+@media screen and (max-width:600px) {
+    #slogan{
+        display: none;
+    }
+    #imagem{
+       
+        margin-top: 50px;
+    }
+}
