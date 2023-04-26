@@ -437,7 +437,11 @@ opacity: 0.9;
     }
    
     .historia{
-        width: 100%;
+        width: 90%;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
     }
 
 }
