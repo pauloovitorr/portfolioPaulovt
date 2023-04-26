@@ -338,7 +338,7 @@ opacity: 0.9;
     }
 
     #imagem img{
-        width: 400px;
+        width: 500px;
         animation-name: animacao;
         animation-duration: 7s;
         
@@ -386,10 +386,7 @@ opacity: 0.9;
         width: 100%;
         margin: 0 auto;
     }
-    #opcoes div a{
-        padding: 0px;
-        font-size: 0.8rem;
-    }
+    
     h1{
         padding-bottom: 5px;
     }
@@ -417,22 +414,8 @@ opacity: 0.9;
 
 
 
-    #imagem img{
-        width: 300px;
-        animation-name: animacao;
-        animation-duration: 7s;
-        
-        
-        
-    }
-    @keyframes animacao{
-        0%{ width: 250px;}
-        100% { width: 300px;}
-       
-    }
-    .redes{
-        width: 80%;
-    }
+   
+   
 
     .projetos{
         width: 30%;
@@ -461,17 +444,7 @@ opacity: 0.9;
 
 }
 
-@media screen and (max-width:376px){
-    #msg1{
-       display: none; 
-    }
-    .habilidades img{
-        opacity: 1;
-    }
-   
-}
     
-
 @media screen and (max-width:600px) {
     #slogan{
         display: none;
@@ -479,5 +452,31 @@ opacity: 0.9;
     #imagem{
        
         margin-top: 50px;
+    }
+    #msg1{
+        display: none; 
+     }
+     .habilidades img{
+         opacity: 1;
+     }
+     #opcoes div a{
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+    .redes{
+        width: 100%;
+    }
+    #imagem img{
+        width: 300px;
+        animation-name: animacao;
+        animation-duration: 7s; 
+        text-align: center;
+        border: 1px solid red;
+        
+    }
+    @keyframes animacao{
+        0%{ width: 250px;}
+        100% { width: 300px;}
+       
     }
 }
