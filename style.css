@@ -438,10 +438,12 @@ opacity: 0.9;
    
     .historia{
         width: 90%;
+        margin-bottom: 50px;
     }
     .container{
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
 
 }
@@ -483,9 +485,11 @@ opacity: 0.9;
     .container{
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
     .historia{
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
 }
