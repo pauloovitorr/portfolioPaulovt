@@ -412,11 +412,9 @@ opacity: 0.9;
         text-align: center;
     }
 
-
-
-   
-   
-
+    #msg1{
+        display: none; 
+     }
     .projetos{
         width: 30%;
         margin:2px;
@@ -470,10 +468,9 @@ opacity: 0.9;
         width: 300px;
         animation-name: animacao;
         animation-duration: 7s; 
-        text-align: center;
-        border: 1px solid red;
-        
+        text-align: center;  
     }
+
     @keyframes animacao{
         0%{ width: 250px;}
         100% { width: 300px;}
