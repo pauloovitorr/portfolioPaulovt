@@ -476,4 +476,10 @@ opacity: 0.9;
         100% { width: 300px;}
        
     }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        height: 100vh;
+        
+    }
 }
